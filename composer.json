@@ -1,0 +1,31 @@
+{
+  "name": "aindows/pay",
+  "description": "pay",
+  "type": "library",
+  "keywords": [
+    "aindows"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "aindows",
+      "email": "windowszcy@gmail.com"
+    }
+  ],
+  "require": {
+    "php":">=7.2.0",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "aindows\\pay\\": "src/pay/"
+    },
+    "files":[
+      "src/helpers.php"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
+}
