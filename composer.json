@@ -20,10 +20,7 @@
   "autoload": {
     "psr-4": {
       "aindows\\pay\\": "src/pay/"
-    },
-    "files":[
-      "src/helpers.php"
-    ]
+    }
   },
   "config": {
     "preferred-install": "dist"

@@ -36,9 +36,10 @@ class Pay
         return $this->config;
     }
 
-    //代付/提现申请
+
 
     /**
+     *  //代付/提现申请
      * @param array $data
      * @return bool|string
      */
