@@ -19,7 +19,7 @@
   },
   "autoload": {
     "psr-4": {
-      "aindows\\pay\\": "src/pay/"
+      "aindows\\pay\\": "src/"
     }
   },
   "config": {
