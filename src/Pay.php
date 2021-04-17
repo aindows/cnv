@@ -17,9 +17,14 @@ class Pay
         return self::$instance;
     }
 
+    /**
+     * Pay constructor.
+     * @param $config
+     * @throws exception\ConfigException
+     */
     private function __construct($config)
     {
-        $this->config = $config;
+        $this->config = new Config($config);
         $this->curl = new CurlRequest();
     }
 
@@ -29,7 +34,7 @@ class Pay
     }
 
     /**
-     * @return array
+     * @return array|Config
      */
     public function getConfig(): array
     {

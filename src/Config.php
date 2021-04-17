@@ -14,7 +14,7 @@ class Config
     public function __construct($config)
     {
         if (empty($config)) {
-            throw  new ConfigException('配置不能这空', 500);
+            throw  new ConfigException('配置不能为空', 500);
         }
         $init = [
             'gateway' => '',
